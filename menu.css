@@ -1,0 +1,71 @@
+/* Style for Menu Section */
+#menu {
+  background-color: #f8f9fa; /* Light background for the menu section */
+  padding: 50px 0;
+}
+
+#menu h2 {
+  font-size: 36px;
+  color: #124646;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.menu-category h3 {
+  color: #124646;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+ul.list-unstyled {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+ul.list-unstyled li {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  border-bottom: 1px solid #ddd;
+}
+
+ul.list-unstyled li:last-child {
+  border-bottom: none;
+}
+
+ul.list-unstyled li span {
+  color: #333;
+}
+
+ul.list-unstyled li span:first-child {
+  font-weight: bold;
+}
+
+ul.list-unstyled li span:last-child {
+  font-weight: bold;
+  color: #124646;
+}
+
+#menu .lead {
+  color: #666;
+  margin-bottom: 40px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  ul.list-unstyled li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  ul.list-unstyled li span {
+    margin-bottom: 5px;
+  }
+}
+html{background: #124646;}

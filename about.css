@@ -1,0 +1,20 @@
+*{font-family: fantasy}
+h1 {display: flex;
+  justify-content: center;
+  margin: 0px;
+  background:   #116658 ;
+  color: #fff;
+  text-shadow: black 2px 2px;
+  font-family: fantasy;
+  font-size: 50px;
+}
+html{background:  #116658 ;
+}
+section{background:   #116658 }
+  .text{color: #fff;
+  text-shadow: black 1px 1px;
+}
+.accordion-button,.accordion-body{background:  #116658 ;
+  color: #fff;
+  text-shadow: black 1px 1px;
+ }
